@@ -1,5 +1,5 @@
 <template>
-  <h1>La mia prima App con VUE CLI!</h1>
+  <h1 class="title">La mia prima App con VUE CLI!</h1>
 </template>
 
 <script>
@@ -9,7 +9,7 @@ name: "Title"
 </script>
 
 <style>
-h1{
+.title{
     color: red;
     font-weight: bold;
 }
