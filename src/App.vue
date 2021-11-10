@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="">
-    <Title></Title>
+    <Title text="La mia prima App con VUE CLI!!"></Title>
     <Hero></Hero>
   
     <img alt="Vue logo" src="./assets/logo.png">

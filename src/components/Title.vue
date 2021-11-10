@@ -1,10 +1,13 @@
 <template>
-  <h1 class="title">La mia prima App con VUE CLI!</h1>
+  <h1 class="title">{{text}}</h1>
 </template>
 
 <script>
 export default {
-name: "Title"
+name: "Title",
+props: {
+    text: String,
+}
 }
 </script>
 
