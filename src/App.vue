@@ -2,25 +2,25 @@
   <div id="app" class="container">
     <Title text="La mia prima App con VUE CLI!!"></Title>
     <Hero></Hero>
-  
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Title from './components/Title.vue'
-import Hero from './components/Hero.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import Title from "./components/Title.vue";
+import Hero from "./components/Hero.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld,
     Title,
-    Hero
-  }
-}
+    Hero,
+  },
+};
 </script>
 
 <style lang="scss">
