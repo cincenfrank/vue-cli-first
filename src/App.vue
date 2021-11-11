@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="">
+  <div id="app" class="container">
     <Title text="La mia prima App con VUE CLI!!"></Title>
     <Hero></Hero>
   
